@@ -1,10 +1,2 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-	return "Hello World !"
-
-if __name__ == "__main__":
-	app.run()
-	app.run(port = 3000)
+DEBUG = True # activate debug mode
+PORT = 3000 # specify port number
